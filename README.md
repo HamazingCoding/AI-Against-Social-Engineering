@@ -1,8 +1,10 @@
-# AI Voice Detection
+# AI against Social Engineering
 
-This project presents an SVM model trained to distinguish between real human and AI-generated voices.
+This project consists of different components that act as counters to different possible social engineering attacks designed to mitigate them
 
-## About the Project
+## AI Voice Detection
+
+This presents an SVM model trained to distinguish between real human and AI-generated voices.
 
 The AI Voice Detection project uses Support Vector Machines (SVM) algo to classify audio samples as real human or AI-generated voices.
 The trained model file can detect any type of AI-generated audio, such as Google Assistant Voice, Alexa Voice, and any other AI-generated Text-to-Speech Voice. 
@@ -32,7 +34,7 @@ To train and test the AI Voice Detection model on your local machine, follow the
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/WaliMuhammadAhmad/AIVoice-Detection.git
+   git clone https://github.com/HamazingCoding/AI-Against-Social-Engineering.git
    ```
 
 3. **Install Dependencies:**
@@ -60,17 +62,3 @@ docker compose up
    predict.py will ask to enter the path of the *.wav file. Enter the file path for prediction.
 
 
-## Acknowledgements
-
-I would like to extend my heartfelt gratitude to the following individuals for their invaluable contribution to the dataset used in this project:
-
-- Hassan Abbas
-- Himanshu
-
-## Contributing
-
-Contributions are welcome! Whether it's improving model performance, or adding more data, your input is valued. Feel free to open issues or pull requests.
-
-## Contact
-
-For any questions or collaborations, you can reach me at [wali.muhammad.ahmad@gmail.com].
